@@ -5,8 +5,8 @@
   - [Instalando dependências](#instale-as-dependências)
   - [Configurando ambiente](#configurando-ambiente)
   - [Rodando o projeto](#rodando-o-projeto)
-  - [Ir para o desafio de backend](../backend/README.md)
   - [Rodando os testes unitários](#rodando-os-testes)
+  - [Ir para o desafio de backend](../backend/README.md)
 
 ## Desafio
 

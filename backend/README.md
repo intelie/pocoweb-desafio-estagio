@@ -8,8 +8,8 @@
   - [Carregando dados iniciais](#carregue-os-dados-iniciais)
   - [Criando um usuário admin](#crie-um-usuário-admin)
   - [Rodando o projeto](#rodando-o-projeto)
-  - [Ir para o desafio de frontend](../frontend/README.md)
   - [Rodando os testes](#rodando-os-testes)
+  - [Ir para o desafio de frontend](../frontend/README.md)
 
 ## Desafio
 
