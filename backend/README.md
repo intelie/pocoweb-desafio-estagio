@@ -14,6 +14,8 @@
 
 O desafio de backend consiste em resolver os problemas descritos nesse arquivo [views.py](explorer/views.py) e sua implementação deve ser feita dentro de [services.py](explorer/services.py)
 
+Também é obrigatório a implementação de testes unitários. Os testes devem ser escritos no arquivo [tests.py](explorer/tests.py)
+
 
 ## Crie um ambiente virtual para isolar localmente nossas dependências
 

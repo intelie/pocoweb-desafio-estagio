@@ -4,6 +4,7 @@ import { useEffect, useState } from "react";
 
 import { Col, Row, Tree } from "antd";
 import { DataNode } from "antd/es/tree";
+import { processData } from "../utils/challenge";
 
 const API_HOST = import.meta.env.VITE_API_HOST;
 
@@ -21,8 +22,6 @@ export default function Challenge() {
       const oilfields = await request<OilfieldType[]>(`${API_HOST}oilfields`);
       const wells = await request<WellType[]>(`${API_HOST}wells`);
 
-      console.log({ opunits, oilfields, wells });
-
       /** 
        * TODO: Você deve fazer uma lógica para processar os dados e deixá-los no formato esperado
        * pelo componente Tree. Vamos avaliar a forma com que você vai processar os dados.
@@ -30,9 +29,10 @@ export default function Challenge() {
        * Documentação do componente utilizado: https://ant.design/components/tree
 
         * A hierarquia dos dados é essa: unidade operacional(operational unit) -> campo(oilfield) -> poço(well)
+        * A Lógica deve ser implementada dentro da função `processData` abaixo.
       */
 
-      setProcessedData([]);
+      setProcessedData(processData(opunits, oilfields, wells));
     }
 
     getData();
