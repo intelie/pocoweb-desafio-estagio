@@ -12,7 +12,7 @@
 
 ## Desafio
 
-O desafio de backend consiste em resolver os problemas descritos nesse arquivo [Views.py](explorer/views.py)
+O desafio de backend consiste em resolver os problemas descritos nesse arquivo [views.py](explorer/views.py) e sua implementação deve ser feita dentro de [services.py](explorer/services.py)
 
 
 ## Crie um ambiente virtual para isolar localmente nossas dependências

@@ -1,6 +1,7 @@
 from explorer.models import OperationalUnit, Oilfield, Well
 from rest_framework import viewsets
 from rest_framework.decorators import api_view
+from explorer.services import process_data_challenge1, process_data_challenge2
 
 from rest_framework.response import Response
 from explorer.serializers import (
@@ -82,18 +83,10 @@ def challenge1(request):
     # O resultado pra esse caso seria:
     # [[["opunit/1"]],[["opunit/2"]],[["opunit/1"],["oilfield/1"]],[["opunit/1"],["oilfield/1"]],[["opunit/2"],["oilfield/3"]],[["opunit/1"],["oilfield/1"],["well/1"]],[["opunit/2"],["oilfield/3"],["well/2"]],[["opunit/2"],["oilfield/3"],["well/3"]]]
 
+    # Você deve escrever sua lógica dentro da função abaixo
     result = process_data_challenge1(opunits, oilfields, wells)
 
     return Response(result)
-
-
-def process_data_challenge1(opunits, oilfields, wells):
-    """
-    Função que processa os dados para estrutura solicitada
-    """
-    # TODO: Escreva seu código aqui
-    return []
-
 
 @api_view(["GET"])
 def challenge2(request):
@@ -135,17 +128,10 @@ def challenge2(request):
     #         ],
     #     },
     # ]
+    # Os nós devem ficar dentro da chave children dos seus pais.
 
-    # Onde os nós ficam dentro da chave children dos seus pais
-
+    # Você deve escrever sua lógica dentro da função abaixo
     result = process_data_challenge2(opunits, oilfields, wells)
 
     return Response(result)
 
-
-def process_data_challenge2(opunits, oilfields, wells):
-    """
-    Função que processa os dados para estrutura solicitada
-    """
-    # TODO: Escreva seu código aqui
-    return []
