@@ -3,7 +3,6 @@
 - [Índice](#indice)
   - [Descrição do desafio](#desafio)
   - [Instalando dependências](#instale-as-dependências)
-  - [Configurando ambiente](#configurando-ambiente)
   - [Rodando o projeto](#rodando-o-projeto)
   - [Rodando os testes unitários](#rodando-os-testes)
   - [Ir para o desafio de backend](../backend/README.md)
@@ -23,10 +22,6 @@ Você deve escrever seus testes unitários no arquivo [challenge.spec.ts](src/__
 ```bash
 yarn install # É necessário ter o node instalado e configurado para funcionar (https://nodejs.org/pt-br)
 ```
-
-## Configurando ambiente
-
-Crie um arquivo .env com base no .env-example e substitua as variáveis caso seja necessário
 
 ## Rodando o projeto
 
