@@ -1,0 +1,157 @@
+[
+  {
+    "model": "explorer.OperationalUnit",
+    "pk": 1,
+    "fields": {
+      "name": "Unidade operacional 1"
+    }
+  },
+  {
+    "model": "explorer.OperationalUnit",
+    "pk": 2,
+    "fields": {
+      "name": "Unidade operacional 2"
+    }
+  },
+  {
+    "model": "explorer.OperationalUnit",
+    "pk": 3,
+    "fields": {
+      "name": "Unidade operacional 3"
+    }
+  },
+  {
+    "model": "explorer.OperationalUnit",
+    "pk": 4,
+    "fields": {
+      "name": "Unidade operacional 4"
+    }
+  },
+  {
+    "model": "explorer.OperationalUnit",
+    "pk": 5,
+    "fields": {
+      "name": "Unidade operacional 5"
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 1,
+    "fields": {
+      "name": "Campo 1",
+      "operational_unit": 1
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 2,
+    "fields": {
+      "name": "Campo 2",
+      "operational_unit": 1
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 3,
+    "fields": {
+      "name": "Campo 3",
+      "operational_unit": 1
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 4,
+    "fields": {
+      "name": "Campo 4",
+      "operational_unit": 3
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 4,
+    "fields": {
+      "name": "Campo 4",
+      "operational_unit": 4
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 5,
+    "fields": {
+      "name": "Campo 5",
+      "operational_unit": 4
+    }
+  },
+  {
+    "model": "explorer.Oilfield",
+    "pk": 6,
+    "fields": {
+      "name": "Campo 6",
+      "operational_unit": 4
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 1,
+    "fields": {
+      "name": "Poço 1",
+      "oilfield": 1
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 2,
+    "fields": {
+      "name": "Poço 2",
+      "oilfield": 1
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 3,
+    "fields": {
+      "name": "Poço 3",
+      "oilfield": 2
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 4,
+    "fields": {
+      "name": "Poço 4",
+      "oilfield": 2
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 5,
+    "fields": {
+      "name": "Poço 5",
+      "oilfield": 3
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 6,
+    "fields": {
+      "name": "Poço 6",
+      "oilfield": 3
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 7,
+    "fields": {
+      "name": "Poço 7",
+      "oilfield": 3
+    }
+  },
+  {
+    "model": "explorer.Well",
+    "pk": 8,
+    "fields": {
+      "name": "Poço 8",
+      "oilfield": 6
+    }
+  }
+]
