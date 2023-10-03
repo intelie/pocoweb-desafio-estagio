@@ -6,6 +6,7 @@
   - [Configurando ambiente](#configurando-ambiente)
   - [Rodando o projeto](#rodando-o-projeto)
   - [Ir para o desafio de backend](../backend/README.md)
+  - [Rodando os testes unitários](#rodando-os-testes)
 
 ## Desafio
 
@@ -31,4 +32,9 @@ Crie um arquivo .env com base no .env-example e substitua as variáveis caso sej
 
 ```bash
 yarn dev
+```
+
+## Rodando os testes
+```bash
+yarn test
 ```

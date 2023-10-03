@@ -3,7 +3,7 @@ import { processData } from "../utils/challenge";
 import { OilfieldType, OperationalUnitType, WellType } from "../@types/domain";
 import { DataNode } from "antd/es/tree";
 
-test("adds 1 + 2 to equal 3", () => {
+test(">>>>Change this name", () => {
   const opunits: OperationalUnitType[] = [];
   const oilfields: OilfieldType[] = [];
   const wells: WellType[] = [];

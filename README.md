@@ -8,6 +8,8 @@ Tudo que é obrigatório de ser feito você conseguira identificar com comentár
 
 Exemplo: `TODO: Criar função que calcula média entre dois números`.
 
+Além disso também é obrigatório a implementação de testes unitários.
+
 Agora leia os README.md de cada projeto:
 
 - [Desafio backend](backend/README.md)

@@ -9,6 +9,7 @@
   - [Criando um usuário admin](#crie-um-usuário-admin)
   - [Rodando o projeto](#rodando-o-projeto)
   - [Ir para o desafio de frontend](../frontend/README.md)
+  - [Rodando os testes](#rodando-os-testes)
 
 ## Desafio
 
@@ -53,4 +54,10 @@ python manage.py createsuperuser --email admin@example.com --username admin
 
 ```bash
 python manage.py runserver
+```
+
+## Rodando os testes
+
+```bash
+python manage.py test
 ```
