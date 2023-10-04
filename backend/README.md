@@ -1,6 +1,6 @@
 # Desafio de backend
 
-- [Índice](#indice)
+- [Início](../README.md)
   - [Descrição do desafio](#desafio)
   - [Configurando ambiente](#crie-um-ambiente-virtual-para-isolar-localmente-nossas-dependências)
   - [Instalando dependências](#instale-as-dependências)

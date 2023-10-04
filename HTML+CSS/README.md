@@ -1,6 +1,6 @@
 # Desafio de frontend *HTML* + *CSS*
 
-- [Índice](#indice)
+- [Início](../README.md)
   - [Descrição do desafio](#desafio)
   - [Ir para o desafio de backend](../backend/README.md)
   - [Ir para o desafio de frontend](../frontend/README.md)

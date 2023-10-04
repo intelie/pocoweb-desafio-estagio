@@ -1,6 +1,6 @@
 # Desafio de frontend
 
-- [Índice](#indice)
+- [Início](../README.md)
   - [Descrição do desafio](#desafio)
   - [Instalando dependências](#instale-as-dependências)
   - [Rodando o projeto](#rodando-o-projeto)
