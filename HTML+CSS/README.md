@@ -2,6 +2,8 @@
 
 - [Índice](#indice)
   - [Descrição do desafio](#desafio)
+  - [Ir para o desafio de backend](../backend/README.md)
+  - [Ir para o desafio de frontend](../frontend/README.md)
 
 ## Desafio
 
