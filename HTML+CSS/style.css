@@ -1,1 +1,103 @@
-/* TODO: Escreva seu css aqui */
+* {
+  padding:0;
+  margin:0;
+  box-sizing:border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+  }
+
+
+
+
+body {
+  background-color: #f5f5f5;
+  display: flex;
+  height: 100vh;
+}
+.aside{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: fit-content;
+  height:100%;
+  background-color: #292278;
+  align-items: center;
+  padding-top: 15px;
+}
+.header{
+  display: flex;
+  height: 80px;
+  background-color: white;
+  border-bottom: 1px solid #999595;
+  color: black;
+  flex-direction: row;
+  align-items: center;
+  font-weight: 600;
+
+}
+.content{
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+}
+.card{
+  display: flex;
+  flex-direction: column;
+  margin: 50px;
+  background-color: white;
+  border: 1px solid  #999595;
+  justify-content: center;
+  padding: 25px;
+  border-radius: 10px;
+  gap: 10px;
+}
+
+.btn{
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  margin: 10%;
+  gap: 25px;
+  width: 90%;
+}
+
+.buttonshape{
+  width: 20vw;
+  padding-left: 5%;
+  border-radius: 10px;
+  height: 40px;
+  background-color: #292278;
+  border: none;
+  color: white;
+  font-size: 16px;
+  margin: 15px 10px;
+  justify-content: center;
+
+  &:hover {
+    background-color: #724ae8;
+  }
+
+  &:active {
+    background-color: #724ae8;
+  }
+}
+.contBt{
+  display: flex;
+}
+.btnIcon {
+  margin-right: 15px; 
+  margin-left: 20px;
+  width: 20px;
+  height: 20px;
+}
+.headerimg{
+  width: 32px;
+  margin: 25px;
+  margin-right: 16px;
+}
+.titlecard{
+  font-size: 18px;
+}
+.subtitllecard{
+  font-size: medium;
+  font-weight: normal;
+}
